@@ -82,16 +82,3 @@ p {
     flex-direction: column;
     align-items: center;
 }
-
-.ftr{
-    font-family:"Helvetica Neue";
-    font-weight: 400;
-    font-size: 15px;
-    margin-top:10px;
-    color:white;
-    
-}
-.ftr a{
-    color:white;
-    font-size: 20px;
-}

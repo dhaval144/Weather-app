@@ -1,4 +1,4 @@
-import React , { useState} from 'react';
+import React , {useState} from 'react';
 import axios from 'axios';
 import './App.css';
 
@@ -42,10 +42,10 @@ function App() {
           <sup>&deg;C</sup>
         </div>
         <div className="info">
-        <img className="city-icon" src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} 
-          alt={weather.weather[0].desccription}>
-        </img>
-        <p>{weather.weather[0].description}</p>
+          <img className="city-icon" src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} 
+            alt={weather.weather[0].desccription}>
+          </img>
+          <p>{weather.weather[0].description}</p>
         </div>
       </div>
     )}
